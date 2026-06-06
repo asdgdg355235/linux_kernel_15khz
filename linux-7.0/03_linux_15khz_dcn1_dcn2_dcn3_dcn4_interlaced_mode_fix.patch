@@ -39,7 +39,7 @@ Index: linux-7.0/drivers/gpu/drm/amd/display/amdgpu_dm/amdgpu_dm.c
  	aconnector->base.doublescan_allowed = false;
  	aconnector->base.stereo_allowed = false;
  	aconnector->base.dpms = DRM_MODE_DPMS_OFF;
-@@ -13960,6 +13960,28 @@ void amdgpu_dm_update_freesync_caps(struct drm_connector *connector,
+@@ -13960,6 +13960,33 @@ void amdgpu_dm_update_freesync_caps(struct drm_connector *connector,
  	if (do_mccs && sink->mccs_caps.freesync_supported && freesync_capable)
  		dm_helpers_mccs_vcp_set(adev->dm.dc->ctx, amdgpu_dm_connector->dc_link, sink);
  
