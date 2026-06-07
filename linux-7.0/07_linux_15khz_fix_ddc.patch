@@ -15,7 +15,6 @@ Index: linux-7.0/drivers/gpu/drm/drm_edid.c
  		if (ret == -ENXIO) {
  			DRM_DEBUG_KMS("drm: skipping non-existent adapter %s\n",
 Index: linux-7.0/drivers/gpu/drm/drm_edid.c
-Index: linux-7.0/drivers/gpu/drm/drm_edid.c
 ===================================================================
 --- linux-7.0.orig/drivers/gpu/drm/drm_edid.c
 +++ linux-7.0/drivers/gpu/drm/drm_edid.c
