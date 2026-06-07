@@ -27,7 +27,7 @@ Index: linux-7.0/drivers/gpu/drm/drm_edid.c
 +		{ 1600, 1200 },
 +		{ 2128, 1596 },
 +		{ 1920, 1440 },
- 	};
+ 	 };
  
  	if (!(pt->misc & DRM_EDID_PT_INTERLACED))
  		return;
