@@ -18,10 +18,11 @@ Index: linux-7.0/drivers/gpu/drm/drm_edid.c
 ===================================================================
 --- linux-7.0.orig/drivers/gpu/drm/drm_edid.c
 +++ linux-7.0/drivers/gpu/drm/drm_edid.c
-@@ -3475,6 +3475,11 @@
+@@ -3472,6 +3472,12 @@
  		{  720,  576 },
  		{ 1440,  576 },
  		{ 2880,  576 },
++		{  640,  480 },
 +		{  800,  600 },
 +		{ 1792, 1344 },
 +		{ 1600, 1200 },
@@ -30,3 +31,4 @@ Index: linux-7.0/drivers/gpu/drm/drm_edid.c
  	};
  
  	if (!(pt->misc & DRM_EDID_PT_INTERLACED))
+
